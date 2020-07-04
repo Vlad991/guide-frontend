@@ -1,0 +1,9 @@
+@import "../../scss/settings/color";
+@import "../../scss/tools/mixin";
+@import "../../scss/tools/media";
+
+.header {
+  .header__logo {
+    color: $orange;
+  }
+}

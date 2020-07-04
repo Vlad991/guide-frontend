@@ -1,0 +1,11 @@
+@import "../settings/font";
+@import "../settings/color";
+
+@mixin fontSCL($size: 16px, $color: #000, $line-height: 16px) {
+  font-family: $font-family;
+  font-style: normal;
+  font-size: $size;
+  color: $color;
+  font-weight: normal;
+  line-height: $line-height;
+}
